@@ -12,7 +12,7 @@
     <h1 class="my-4 text-center">Gogu chat</h1>
 
     <!-- buttons for chatrooms -->
-    <div class="chat-room mb-3 text-center">
+    <div class="chat-rooms mb-3 text-center">
       <div class="my-2">Choose a chat room:</div>
       <button class="btn" id="general">#general</button>
       <button class="btn" id="gaming">#gaming</button>
@@ -49,9 +49,10 @@
           <input type="submit" class="btn" value="update">
         </div>
       </div>
+      <div class="update-mssg"></div>
     </form>
   </div>
-
+<script src="http://cdn.date-fns.org/v1.9.0/date_fns.min.js"></script>
 <!-- The core Firebase JS SDK is always required and must be listed first -->
 <script src="https://www.gstatic.com/firebasejs/8.1.1/firebase-app.js"></script>
 <script src="https://www.gstatic.com/firebasejs/8.1.1/firebase-firestore.js"></script>
